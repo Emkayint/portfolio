@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    background: linear-gradient(130deg, #abd18c, #c01dcfde);
+    padding: 10px;
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.container-main{
+    height: 100%;
+    background: rgba(223, 208, 208, 0.6);
+    border-radius: 20px;
+}
