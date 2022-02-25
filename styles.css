@@ -57,7 +57,21 @@ nav a:hover{
 }
 
 .home{
-    height: 250vh;
-    background-color: red;
+    height: 100%;
+    background-color: #8b7777;
 
+}
+
+/* css grid */
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-half{
+    width: 50%;
+    margin: 0;
+    padding: 10px;
 }
