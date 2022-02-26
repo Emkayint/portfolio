@@ -5,7 +5,7 @@
 
 .container{
     height: 100vh;
-    background: #1A1A2E;
+    background: linear-gradient(100deg, white, blue);
     padding: 10px;
     overflow: hidden;
     padding-left: 5%;
@@ -78,6 +78,12 @@ nav a:active{
     padding: 10px;
     float: left;
 }
+
+.column-third{
+    width: 33%;
+    margin: 0;
+    float: left;
+}
 .one{
     padding-bottom: 12.7%;
     background: rgba(255, 255, 255, 0.1);
@@ -126,3 +132,44 @@ p > span{
     width: 100%;
     height: auto;
 }
+
+/* project styling */
+
+.projects{
+    margin: 0;
+    padding-top: 20px;
+    color: white;
+    background: #080707;
+
+}
+
+.card{
+    padding: 15px;
+}
+
+.card img{
+    width: 100%;
+}
+.spans{
+    height: 230px;
+    padding-top: 20%;
+}
+
+.spans .spans1{
+    display: block;
+    width: 50%;
+    border-bottom: 1px solid ;
+    margin-bottom: 20px;
+}
+
+.spans a{
+    text-decoration: none;
+    padding: 15px;
+    background: #423939;
+    display: block;
+    width: 30%;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
