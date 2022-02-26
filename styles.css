@@ -16,9 +16,9 @@
 
 .container-main{
     height: 100%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     overflow: auto;
-    box-shadow: 2px 2px 2px #464242;
+    box-shadow: 4px 4px 4px #7e5f5f;
 }
 
 nav{
@@ -138,8 +138,8 @@ p > span{
 .projects{
     margin: 0;
     padding-top: 20px;
-    color: white;
-    background: #080707;
+    color: black;
+    background: #f2f2f2;
 
 }
 
@@ -165,7 +165,7 @@ p > span{
 .spans a{
     text-decoration: none;
     padding: 15px;
-    background: #423939;
+    background: #cec2c2;
     display: block;
     width: 30%;
     color: black;
