@@ -39,6 +39,7 @@ nav a{
     color: rgb(0, 0, 0);
     font-size: 1em;
     margin-top: 20px;
+    background: rgba(0, 0, 0, .05);
 
 }
 
@@ -47,6 +48,9 @@ nav a:hover{
     background: rgb(196, 189, 189);
 }
 
+nav a:active{
+    border-left: 2px solid red ;
+}
 .content{
     width: 90%;
     height: 100%;
@@ -109,7 +113,7 @@ p > span{
     
 }
 .profile-picture{
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     color: rgb(255, 196, 4);
 }
