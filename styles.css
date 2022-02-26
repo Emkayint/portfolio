@@ -78,7 +78,11 @@ nav a:active{
     padding: 10px;
     float: left;
 }
-
+.one{
+    padding-bottom: 12.7%;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 5px #1A1A2E;
+}
 .mytext{
     margin-top: 23%;
     color: whitesmoke;
