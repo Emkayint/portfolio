@@ -23,7 +23,7 @@
 
 nav{
     width: 10%;
-    background: rgb(255, 196, 4);
+    background: rgba(255, 196, 4);
     height: 100%;
     /* padding: 15px; */
     float: left;
@@ -72,6 +72,7 @@ nav a:hover{
     width: 50%;
     margin: 0;
     padding: 10px;
+    float: left;
 }
 
 .mytext{
@@ -106,4 +107,14 @@ p > span{
     border-bottom: 1px solid rgb(255, 196, 4);
     padding-top: 20px;
     
+}
+.profile-picture{
+    padding: 30px;
+    text-align: center;
+    color: rgb(255, 196, 4);
+}
+
+.profile-picture img{
+    width: 100%;
+    height: auto;
 }
