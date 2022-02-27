@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6{
 
 .container{
     height: 100vh;
-    background: linear-gradient(100deg, white, blue);
+    background: linear-gradient(100deg,#80aaff, #ecb3ff);
     padding: 10px;
     overflow: hidden;
     padding-left: 5%;
@@ -113,7 +113,7 @@ nav a:active{
 }
 
 .mytext h1{
-    font-size: 5rem;
+    font-size: 5vw;
 }
 p > span{
     display: inline-block;
@@ -126,7 +126,7 @@ p > span{
     padding: 10px;
     background-color: rgb(255, 196, 4) ;
     display: block;
-    width: 20%;
+    width: fit-content;
     color: black;
     margin-top: 30px;
 }
@@ -292,13 +292,13 @@ header h1{
 }
 .contact{
     height: 100vh;
-    background: linear-gradient(180deg,  #001a4d 70%,  #979ead 30%);
+    background: linear-gradient(180deg,  #334d80 70%,  white 30%);
     padding-top: 10%;
 
 }
 .form-card{
     width: 80%;
-    background: white;
+    background: #f2f2f2;
     margin: 0 auto;
     padding: 30px;
 }
@@ -308,6 +308,7 @@ form input{
     padding: 16px;
     border-bottom: 1px solid black;
     margin-top: 15px;
+    background: unset;
 }
 .text-green{
     color: green;
