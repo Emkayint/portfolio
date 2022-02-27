@@ -196,7 +196,10 @@ p > span{
 .about-content{
     padding: 15px;
 }
-.about h1,h2,h3,h4{
+.about h1{
+    color: rgb(40, 99, 40);
+}
+.about h2, h3, h4{
     color: rgb(40, 99, 40);
 }
 .about-card{
@@ -252,4 +255,8 @@ p > span{
     text-align: center;
     color: white;
     border-radius: 10px;
+}
+
+.int{
+    background: rgba(255, 255, 255, 0.4);
 }
