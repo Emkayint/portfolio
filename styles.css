@@ -75,6 +75,9 @@ nav a:active{
 .home{
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
+    background-image: url("assets/ai-digital-transformation-background-blue-with-robotic-hands-remixed-media.jpg");
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -98,11 +101,7 @@ nav a:active{
     margin: 0;
     float: left;
 }
-.one{
-    padding-bottom: 12.7%;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 2px 2px 5px #1A1A2E;
-}
+
 .mytext{
     margin-top: 23%;
     color: whitesmoke;
@@ -137,14 +136,20 @@ p > span{
     
 }
 .profile-picture{
-    padding: 15px;
     text-align: center;
     color: rgb(255, 196, 4);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
 }
 
 .profile-picture img{
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 /* project styling */
