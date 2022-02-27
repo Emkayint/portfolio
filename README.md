@@ -15,7 +15,7 @@ This is a simple landing page prtfolio
 
 ## Usage
 
- * Follow the kink [emkayint.github.io/portfolio](emkayint.github.io/portfolio)
+ * Follow the kink [emkayint.github.io/portfolio](https://emkayint.github.io/portfolio)
  * Use the navigation menu to go around or
  * Scroll Down to see more
 
@@ -33,4 +33,4 @@ This is a simple landing page prtfolio
   * [MIT Licence](LICENCE)
 
 ## Links
- * [live Link](emkayint.github.io/portfolio)
+ * [live Link](https://emkayint.github.io/portfolio)
