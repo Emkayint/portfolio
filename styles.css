@@ -4,6 +4,9 @@
     font-family: "Times New Roman", Georgia, Serif;
 
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Saira Condensed', sans-serif;
+}
 
 .container{
     height: 100vh;
@@ -25,7 +28,8 @@
 
 nav{
     width: 10%;
-    background: rgba(255, 196, 4);
+    background: linear-gradient(110deg, #ecb3ff 50%, #80aaff 50%);
+    
     height: 100%;
     /* padding: 15px; */
     float: left;
@@ -161,7 +165,16 @@ p > span{
     background: #f2f2f2;
 
 }
+.js{
+    color: yellow;
+}
 
+.html5{
+    color: rgb(214, 109, 109);
+}
+.css3{
+    color: #001a4d;
+}
 .card{
     padding: 15px;
 }
@@ -213,6 +226,10 @@ p > span{
     background: rgba(192, 182, 182, 0.2);
     padding: 10px;
 
+}
+
+.bri{
+    color: #ecb3ff;
 }
 
 .html5{
@@ -302,4 +319,7 @@ form button{
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
+}
+.icon{
+    color: white;
 }
