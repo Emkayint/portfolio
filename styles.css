@@ -187,7 +187,7 @@ p > span{
 }
 
 .about{
-    padding-top: 10%;
+    padding-top: 5%;
     background-image: url("assets/businessman-pointing-his-presentation-futuristic-digital-screen.jpg");
     height: 100vh;
     background-position: center;
@@ -196,7 +196,7 @@ p > span{
 .about-content{
     padding: 15px;
 }
-.about h1{
+.about-content h1{
     color: rgb(40, 99, 40);
 }
 .about h2, h3, h4{
@@ -259,4 +259,11 @@ p > span{
 
 .int{
     background: rgba(255, 255, 255, 0.4);
+}
+header{
+    text-align: center;
+    color: black;
+}
+header h1{
+    color: black;
 }
