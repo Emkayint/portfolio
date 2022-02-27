@@ -186,3 +186,23 @@ p > span{
     margin-top: 20px;
 }
 
+.about{
+    padding-top: 10%;
+    background-image: url("assets/businessman-pointing-his-presentation-futuristic-digital-screen.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.about-content{
+    padding: 15px;
+}
+.about h1,h2,h3,h4{
+    color: rgb(40, 99, 40);
+}
+.about-card{
+    width: 90%;
+    background: rgba(192, 182, 182, 0.2);
+    padding: 10px;
+
+}
+
