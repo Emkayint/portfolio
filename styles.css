@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Redressed', cursive;
+    font-family: "Times New Roman", Georgia, Serif;
+
 }
 
 .container{
@@ -266,4 +267,36 @@ header{
 }
 header h1{
     color: black;
+}
+.contact{
+    height: 100vh;
+    background: linear-gradient(180deg,  #001a4d 70%,  #979ead 30%);
+    padding-top: 10%;
+
+}
+.form-card{
+    width: 80%;
+    
+    box-shadow: 2px 2px 2px #f2f2f2;
+    background: white;
+    margin: 0 auto;
+    padding: 30px;
+}
+form input{
+    width: 100%;
+    border: none;
+    padding: 16px;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+.text-green{
+    color: green;
+}
+form button{
+    background-color: green;
+    border: none;
+    width: 20%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
