@@ -337,3 +337,23 @@ form button{
     background: rgb(144, 108, 158);
     border-radius: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+    .column-half, .column-third{
+        width: 100%;
+    }
+
+    .about{
+        height: auto;
+    }
+    .contact{
+        height: auto;
+    }
+
+    .nav{
+        display: inline;
+        width: 100%;
+        float: unset;
+        position: unset;
+    }
+}
