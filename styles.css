@@ -324,3 +324,16 @@ form button{
 .icon{
     color: white;
 }
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(144, 108, 158);
+    border-radius: 2px;
+}
