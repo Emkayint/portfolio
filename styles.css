@@ -350,10 +350,26 @@ form button{
         height: auto;
     }
 
-    .nav{
-        display: inline;
+    nav{
+        display: none;
         width: 100%;
         float: unset;
         position: unset;
+    }
+    nav a{
+        width: fit-content;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .content{
+        width: 100%;
+    }
+    .profile-picture{
+        color: #eeebe0;
+        top: 0;
+        right: 0;
+        z-index: 1;
     }
 }
