@@ -372,4 +372,8 @@ form button{
         right: 0;
         z-index: 1;
     }
+    .form-card{
+        margin: 0 auto;
+        width: 100;
+    }
 }
