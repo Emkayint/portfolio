@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Redressed', cursive;
 }
 
 .container{
@@ -29,6 +29,7 @@ nav{
     /* padding: 15px; */
     float: left;
     /* z-index: 1; */
+    position: relative;
     border-right: 1px solid rgb(153, 153, 143);
 }
 
@@ -51,6 +52,17 @@ nav a:hover{
 
 nav a:active{
     border-left: 2px solid red ;
+}
+
+.small-profile{
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.small-profile img{
+    width: 70%;
 }
 .content{
     width: 90%;
