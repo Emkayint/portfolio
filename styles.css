@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6{
 
 .container-main{
     height: 100%;
-    /* border-radius: 20px; */
     overflow: auto;
     box-shadow: 4px 4px 4px #7e5f5f;
 }
@@ -31,9 +30,7 @@ nav{
     background: linear-gradient(110deg, #ecb3ff 50%, #80aaff 50%);
     
     height: 100%;
-    /* padding: 15px; */
     float: left;
-    /* z-index: 1; */
     position: relative;
     border-right: 1px solid rgb(153, 153, 143);
 }
