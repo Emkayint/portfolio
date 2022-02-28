@@ -377,3 +377,35 @@ form button{
         width: 100;
     }
 }
+
+
+/* animated dots */
+.header{
+    padding-left: 30px;
+}
+.dot-1{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.dot-2{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(60, 114, 53);
+}
+
+.dot-3{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(41, 44, 94);
+}
