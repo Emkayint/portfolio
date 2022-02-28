@@ -196,10 +196,10 @@ p > span{
 
 .spans a{
     text-decoration: none;
-    padding: 15px;
-    background: #cec2c2;
+    padding: 10px;
+    background: #5fbe28;
     display: block;
-    width: 30%;
+    width: fit-content;
     color: black;
     border-radius: 5px;
     margin-top: 20px;
@@ -387,17 +387,19 @@ form button{
     display: inline-block;
     width: 10px;
     height: 10px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 50%;
     background-color: red;
+    animation: dot1 5s linear infinite;
 }
 
 .dot-2{
     display: inline-block;
     width: 10px;
     height: 10px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 50%;
+    animation: dot2 5s linear infinite;
     background-color: rgb(60, 114, 53);
 }
 
@@ -405,7 +407,65 @@ form button{
     display: inline-block;
     width: 10px;
     height: 10px;
-    padding: 5px;
+    padding: 8px;
     border-radius: 50%;
     background-color: rgb(41, 44, 94);
+    animation: dot3 5s linear infinite;
+}
+
+@keyframes dot1 {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: #001a4d;
+    }
+    50%{
+        background-color: #80aaff;
+    }
+    75%{
+        background-color: yellowgreen;
+    }
+    100%{
+        background-color: red;
+    }
+
+}
+
+@keyframes dot2 {
+    0%{
+        background-color: violet;
+    }
+    25%{
+        background-color: #5abd46;
+    }
+    50%{
+        background-color: #ea543a;
+    }
+    75%{
+        background-color: rgb(60, 87, 117);
+    }
+    100%{
+        background-color: violet;
+    }
+
+}
+
+@keyframes dot3 {
+    0%{
+        background-color: rgb(95, 39, 141);
+    }
+    25%{
+        background-color: #ac6810;
+    }
+    50%{
+        background-color: #26d1c0;
+    }
+    75%{
+        background-color: yellowgreen;
+    }
+    100%{
+        background-color: rgb(67, 54, 179);
+    }
+
 }
